@@ -1,4 +1,4 @@
-<p align="center"><a href="https://medium.com/@notrab/getting-started-with-create-react-app-redux-react-router-redux-thunk-d6a19259f71f"><img src="https://cdn-images-1.medium.com/max/2000/1*6czub9YyW8AVJpFlIgaDUQ.png" title="View tutorial" alt="React, React Router, Redux and Redux Thunk" width="900"></a></p>
+<p align="center"><img src="https://github.com/raviprajna/simple-react-redux-starter-kit/tree/master/src/resource/img/Banner.png" alt="React, React Router, Redux, Redux Thunk, Rebass, Styled Components " width="900"></a></p>
 
 ## Prerequisite
 
@@ -68,8 +68,10 @@ If this is not set it will automatically pick up PROD configurations
 
 [react-boilerplate](https://github.com/react-boilerplate)
 
-- Tutorial: [Getting started with create-react-app, Redux, React Router & Redux Thunk](https://medium.com/@notrab/getting-started-with-create-react-app-redux-react-router-redux-thunk-d6a19259f71f)
+[rebass](https://rebassjs.org/getting-started)
 
 
-## TODO
-To prettyfy -> "precommit": "pretty-quick --staged",
+## FAQ
+Why APPLICATION_PROFILE why not node.env
+- This is to have common environment variable for REACT and API components.
+  Also name is more generic now
