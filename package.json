@@ -41,5 +41,18 @@
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ]
-  }
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "redux-thunk",
+    "react-router",
+    "rebass",
+    "styled component",
+    "CRA",
+    "create-react-app",
+    "starter-kit",
+    "framework",
+    "starter"
+  ]
 }
