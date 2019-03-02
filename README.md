@@ -44,16 +44,14 @@ set APPLICATION_PROFILE=<env_name>
 
 env_name [ prod, sit, dev, local ]
 
-This is required because build will generate static file from the host machine and packaged as JAR then deployed to server.
-So setting APPLICATION_PROFILE on server is not enough.
-
 If this is not set it will automatically pick up PROD configurations
 
 npm run build or yarn build
-Builds the app for production to the build folder.
+Builds the app for production to the "build" folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.
+With react lazy load separate chunk is created for each route.
 
 Your app is ready to be deployed.
 
