@@ -30,7 +30,7 @@ npm run start
 
 ```bash
 
-# npm test or yarn test
+npm test or yarn test
 Runs the test watcher in an interactive mode.
 By default, runs tests related to files changed since the last commit.
 
@@ -42,17 +42,14 @@ By default, runs tests related to files changed since the last commit.
 Before generating artifacts
 set APPLICATION_PROFILE=<env_name>
 
-## More Details on Testing and Deployment.
-https://github.com/facebook/create-react-app
-
-# env_name [ prod, sit, dev, local ]
+env_name [ prod, sit, dev, local ]
 
 This is required because build will generate static file from the host machine and packaged as JAR then deployed to server.
 So setting APPLICATION_PROFILE on server is not enough.
 
 If this is not set it will automatically pick up PROD configurations
 
-# npm run build or yarn build
+npm run build or yarn build
 Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
@@ -62,7 +59,11 @@ Your app is ready to be deployed.
 
 ```
 
-## This boilerplate is inspired from
+## More Details on Testing and Deployment.
+https://github.com/facebook/create-react-app
+
+
+## This boilerplate is built on top of
 
 [create-react-app](https://github.com/facebookincubator/create-react-app)
 
