@@ -53,6 +53,10 @@
     "create-react-app",
     "starter-kit",
     "framework",
-    "starter"
+    "spa-framework",
+    "SPA",
+    "starter",
+    "jest",
+    "enzyme"
   ]
 }
