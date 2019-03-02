@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/raviprajna/simple-react-redux-starter-kit/tree/master/src/resource/img/Banner.png" alt="React, React Router, Redux, Redux Thunk, Rebass, Styled Components " width="900"></a></p>
+<p align="center"><img src="src/resource/img/Banner.png" alt="React, React Router, Redux, Redux Thunk, Rebass, Styled Components " width="900"></a></p>
 
 ## Prerequisite
 
