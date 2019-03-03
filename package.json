@@ -13,7 +13,8 @@
     "prettier": "^1.11.0",
     "pretty-quick": "^1.6.0",
     "react-app-env": "^1.2.2",
-    "react-scripts": "^1.0.17"
+    "react-scripts": "^1.0.17",
+    "redux-mock-store": "^1.5.3"
   },
   "dependencies": {
     "react": "^16.4.0",

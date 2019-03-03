@@ -34,6 +34,9 @@ npm test or yarn test
 Runs the test watcher in an interactive mode.
 By default, runs tests related to files changed since the last commit.
 
+npm test -- --coverage
+Run npm test -- --coverage (note extra -- in the middle) to include a coverage report like this:
+
 ```
 
 ## Deployment

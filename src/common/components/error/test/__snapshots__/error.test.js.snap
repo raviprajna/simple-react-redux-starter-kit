@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Error /> Component Test renders <Error /> component with error object as props  1`] = `
+<StyledComponent
+  color="red"
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-htpNat",
+        "isStatic": false,
+        "rules": Array [
+          "box-sizing: border-box;",
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+        ],
+      },
+      "displayName": "Styled(styled.div)",
+      "foldedComponentIds": Array [
+        "sc-bdVaJa",
+      ],
+      "propTypes": Object {
+        "fontFamily": [Function],
+        "fontWeight": [Function],
+        "letterSpacing": [Function],
+        "lineHeight": [Function],
+        "textAlign": [Function],
+      },
+      "render": [Function],
+      "styledComponentId": "sc-htpNat",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  Error !!
+</StyledComponent>
+`;
+
+exports[`<Error /> Component Test renders <Error /> no props component 1`] = `
+<StyledComponent
+  color="red"
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-htpNat",
+        "isStatic": false,
+        "rules": Array [
+          "box-sizing: border-box;",
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+        ],
+      },
+      "displayName": "Styled(styled.div)",
+      "foldedComponentIds": Array [
+        "sc-bdVaJa",
+      ],
+      "propTypes": Object {
+        "fontFamily": [Function],
+        "fontWeight": [Function],
+        "letterSpacing": [Function],
+        "lineHeight": [Function],
+        "textAlign": [Function],
+      },
+      "render": [Function],
+      "styledComponentId": "sc-htpNat",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  Something went wrong
+</StyledComponent>
+`;

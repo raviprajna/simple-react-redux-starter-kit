@@ -24,6 +24,8 @@ componentDidMount(){
              <Text pt={4} fontSize={3} > Reviews </Text>
              <hr/>
              {
+                state.reviews.length == 0 ?
+                "No Comments" :
                 state.reviews.map( review => <Text pt={1}> {review.comment} </Text> )
              }
          </Box>

@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home/> Component Test renders <Home />  1`] = `
+<StyledComponent
+  flexDirection="column"
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bwzfXH",
+        "isStatic": false,
+        "rules": Array [
+          "box-sizing: border-box;",
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          "display: flex;",
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+        ],
+      },
+      "displayName": "Styled(styled.div)",
+      "foldedComponentIds": Array [
+        "sc-bdVaJa",
+      ],
+      "propTypes": Object {
+        "alignItems": [Function],
+        "flexDirection": [Function],
+        "flexWrap": [Function],
+        "justifyContent": [Function],
+      },
+      "render": [Function],
+      "styledComponentId": "sc-bwzfXH",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  <Styled(styled.div)
+    as="a"
+    color="blue"
+    href="/reviews"
+  >
+    REVIEWS 
+  </Styled(styled.div)>
+  <Styled(styled.div)
+    alt="First slide"
+    as="img"
+    m={0}
+    p={3}
+    src="Banner.png"
+  />
+</StyledComponent>
+`;

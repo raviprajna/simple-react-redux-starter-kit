@@ -1,8 +1,10 @@
 import React from "react";
-import { Flex } from 'rebass';
+import { Flex, Box } from 'rebass';
 
 export default function Loading(props){
 return(
-<Flex justifyContent="center" >Loading...</Flex>
+<Flex justifyContent="center" >
+    <Box> Loading... </Box>
+</Flex>
 )
 }

@@ -15,3 +15,5 @@ node_modules/
 # Output
 build/
 
+# coverage
+coverage/
